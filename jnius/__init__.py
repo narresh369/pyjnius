@@ -6,6 +6,7 @@ Accessing Java classes from Python.
 
 All the documentation is available at: http://pyjnius.readthedocs.org
 '''
+print("DEBUG: Using patched pyjnius from narresh369 repo")
 
 __version__ = '1.6.1'
 
