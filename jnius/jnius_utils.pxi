@@ -320,7 +320,6 @@ cdef int calculate_score(sign_args, args, is_varargs=False) except *:
             continue
 
         if r == 'S' or r == 'I':        
-            print("DEBUG: Using patched pyjnius with int instead of long")
             if isinstance(arg, int) and arg < 2147483648:
                 score += 10
                 continue
